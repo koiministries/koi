@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — KOI Creative Ministry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo"><a href="index.html">KOI</a></div>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1>Get In Touch</h1>
+            <p>Let's start a conversation about your project</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="contact-content">
+            <div class="contact-intro">
+                <h2>Let's Create Together</h2>
+                <p>Need custom design work? Want to discuss a project? Have questions about our products? We'd love to hear from you.</p>
+            </div>
+            
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:hello@koicreative.com">koicreativeministries@gmail.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Phone</h4>
+                        <p><a href="tel:+15551234567">(262) 975-0234</a></p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Active Hours</h4>
+                        <p>Monday - Friday<br>8:00 AM - 9:00 PM CST</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Response Time</h4>
+                        <p>Typically within 24 hours</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="church">Ministry/Organization</label>
+                        <input type="text" id="church" name="church" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service...</option>
+                            <option value="brand">Brand Identity</option>
+                            <option value="worship">Worship Design</option>
+                            <option value="digital">Digital Media</option>
+                            <option value="strategy">Strategy</option>
+                            <option value="multiple">Multiple Services</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Estimated Budget</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select a range...</option>
+                            <option value="under5k">Under $5,000</option>
+                            <option value="5k-10k">$5,000 - $10,000</option>
+                            <option value="10k-25k">$10,000 - $25,000</option>
+                            <option value="25k-plus">$25,000+</option>
+                            <option value="flexible">Flexible</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Tell us about your project *</label>
+                        <textarea id="message" name="message" required placeholder="Share your vision, goals, timeline, and any specific needs..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="faq-content">
+            <h2 class="section-title">Common Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What's the difference between services and products?</h3>
+                    <p>Our services are custom design work tailored to your specific needs. Our products are ready-made digital resources you can purchase and download instantly.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What's your typical project timeline?</h3>
+                    <p>Custom projects take 2-6 weeks depending on scope. Digital products are available for instant download after purchase.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you work with organizations of all sizes?</h3>
+                    <p>Absolutely! We serve everyone from solo ministries to large organizations. We scale our approach to fit your needs and budget.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I customize your digital products?</h3>
+                    <p>Yes! Most of our products come in editable formats so you can customize colors, text, and more to fit your brand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">KOI</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 KOI Creative Ministry. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
